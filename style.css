@@ -1,0 +1,22 @@
+/* تنظیمات کلی صفحه */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+/* کانتینر ساعت */
+.clock-container {
+  text-align: center;
+}
+
+/* ساعت */
+#clock {
+  font-size: 5rem;
+  letter-spacing: 2px;
+}
